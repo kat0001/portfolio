@@ -113,8 +113,8 @@ img {
   width: 100%; }
 
 #logo {
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   color: #fff;
   text-transform: uppercase; }
 
@@ -151,7 +151,7 @@ img {
 
 #header-inner {
   background: url("../img/showcase.jpg") no-repeat 20% 30%/cover;
-  height: 5.5rem;
+  height: 6.5rem;
   border-bottom: 3px solid #ffbc00; }
 
 #home-a .specials {
@@ -244,7 +244,27 @@ img {
 #about-a .award-2 .fas,
 #about-a .award-3 .fas {
   color: #ffbc00;
-  margin: 1rem; }
+  margin: 2rem; }
+
+#about-b .progress {
+  overflow: hidden;
+  height: 30px;
+  background: #ccc;
+  border-radius: 5px;
+  margin-bottom: 0.6rem; }
+  #about-b .progress div {
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    background: #ffbc00; }
+
+#about-c .about-logos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 2rem; }
+
+#about-c .img {
+  width: 70%; }
 
 #main-footer {
   background: #333;

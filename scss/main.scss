@@ -33,8 +33,8 @@ img {
 
 //logo
 #logo {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     color: #fff;
     text-transform: uppercase;
 }
@@ -96,7 +96,7 @@ img {
 
     &-inner {
         background: $bg-image no-repeat 20% 30% / cover;
-        height: 5.5rem;
+        height: 6.5rem;
         border-bottom: 3px solid $main-color;
     }
 }
@@ -241,8 +241,41 @@ img {
         .award-2 .fas,
         .award-3 .fas {
             color: $main-color;
-            margin: 1rem;
+            margin: 2rem;
         }
+    }
+
+    //ABOUT B
+    &-b {
+        .progress {
+            overflow: hidden;
+            height: 30px;
+            background: $medium-color;
+            border-radius: 5px;
+            margin-bottom: 0.6rem;
+
+            div {
+                height: 100%;
+                color: #fff;
+                text-align: center;
+                background: $main-color;
+            }
+        }
+    }
+
+    //ABOUT C
+    &-c {
+        .about-logos {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 2rem;
+        }
+
+        .img {
+           width: 70%; 
+        }
+        
+
     }
 }
 
