@@ -263,8 +263,33 @@ img {
   grid-template-columns: repeat(4, 1fr);
   column-gap: 2rem; }
 
-#about-c .img {
+#about-c img {
   width: 70%; }
+
+#about-d .testimonials {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 1rem; }
+
+#about-d .lead {
+  border: none; }
+
+#about-d ul {
+  list-style: none;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center; }
+
+#about-d p {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.5rem; }
+
+#about-d img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 0.5rem; }
 
 #main-footer {
   background: #333;
