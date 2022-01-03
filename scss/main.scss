@@ -354,6 +354,20 @@ img {
             width: 50%;
         }
     }
+
+    &-b {
+        .contact-info {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            text-align: center;
+        }
+    }
+    &-c {
+        h1 {
+            text-align: center;
+            font-size: 3rem;
+        }
+    }
 }
 
 //FOOTER    
